@@ -1,2 +1,3 @@
 # UTN-TUPaD-Programacion1
-Primer repositorio de practica. Tp unidad 2
+Franco Sampieri
+Repositorio para entreagar trabajos practicos
