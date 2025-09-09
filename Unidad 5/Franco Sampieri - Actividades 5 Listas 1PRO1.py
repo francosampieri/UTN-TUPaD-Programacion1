@@ -71,7 +71,6 @@ def ejercicio_10():
     lista_anidada = [15, True, [25.5, 57.9, 30.6], False]
     print (lista_anidada)
 
-
 #main
 funciones = [None, ejercicio_1, ejercicio_2, ejercicio_3, ejercicio_4, ejercicio_5, ejercicio_6, ejercicio_7, ejercicio_8, ejercicio_9, ejercicio_10]
 menu_ejercicios(funciones)
