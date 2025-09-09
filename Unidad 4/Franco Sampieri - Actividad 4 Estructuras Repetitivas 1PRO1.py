@@ -10,7 +10,7 @@ print(f"El numero {numero_usuario} tiene {cifras} digitos")
 """EJERCICIO 3"""
 limite_inferior = int(input("Ingresa desde donde queres que empiece a sumar los numeros ")) #solicita limite inferior
 limite_superior = int(input("Ingresa hasta que numero queres que sume los numeros ")) #solicita limite inferior
-while limite_inferior > limite_superior:
+while limite_inferior >= limite_superior:
     print("ERROR: El primer numero ingresado debe ser menor al segundo. Intentalo de nuevo")
     limite_inferior = int(input("Ingresa desde donde queres que empiece a sumar los numeros "))
     limite_superior = int(input("Ingresa hasta que numero queres que sume los numeros "))
@@ -44,7 +44,7 @@ for i in range(98,0,-2): print (i) #for en una linea
 """EJERCICIO 7"""
 numero_usuario = int(input("Ingrese un numero entero positivo para sumar todos sus antecesores "))
 while numero_usuario < 0:
-    numero_usuario = int(input("ERROR: Ingresa un numero entero POSITIVO"))
+    numero_usuario = int(input("ERROR: Ingresa un numero entero POSITIVO "))
 sumatoria = 0 #inicializar sumador en 0
 for i in range (numero_usuario-1,0,-1): sumatoria += i #for en una linea
 print (f"La sumatoria de todos los numeros entre 0 y {numero_usuario} es {sumatoria}")
@@ -93,3 +93,4 @@ for i in range(cifras, 0, -1):
     numero_nuevo = numero_nuevo + str(numero_usuario)[i-1] #suma a la cadena numero_nuevo el digito opuesto de numero_usuario
 numero_nuevo = int(numero_nuevo) #pasar str a int para resultado numerico
 print (numero_nuevo)
+
