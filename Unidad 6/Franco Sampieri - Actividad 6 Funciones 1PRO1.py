@@ -1,3 +1,6 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__))) #agrega al path la carpeta donde esta funciones.py para evitar errores     
+
 from funciones import pedir_int_rango, pedir_float_rango, menu_ejercicios
 import math
 
@@ -40,7 +43,7 @@ def ejercicio_4():
 
 def ejercicio_5():
     def segundos_a_horas(segundos):
-        return segundos/360
+        return segundos/3600
     
     #main
     segundos = pedir_int_rango("Ingresa cuantos segundos quieres pasar a horas: ", 0)
