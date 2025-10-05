@@ -17,7 +17,6 @@ def pedir_int_rango(mensaje, limite_inf = -float("inf"), limite_sup = float("inf
             continue
         return n
     
-
 def pedir_float_rango(mensaje, limite_inf = -float("inf"), limite_sup = float("inf")):
     """Pide un numero flotante y valida que este dentro dentro del rango solicitado"""
     while True:
@@ -32,7 +31,7 @@ def pedir_float_rango(mensaje, limite_inf = -float("inf"), limite_sup = float("i
         return n
     
 def menu_ejercicios(funciones):
-    """Ejecuta menu para seleciconar ejercicios\n
+    """Ejecuta menu para seleccionar ejercicios\n
     Recibe list con las funciones de cada ejercicio empezada por None
     """
     seguir = True
