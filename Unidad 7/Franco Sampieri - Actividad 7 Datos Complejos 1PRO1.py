@@ -49,11 +49,6 @@ def ejercicio_4():
     else: print("No tiene ningun contacto agendado con ese nombre")
 
 def ejercicio_5():
-    """ 
-    Solicita al usuario una frase e imprime:
-    - Las palabras únicas (usando un set).
-    - Un diccionario con la cantidad de veces que aparece cada palabra.
-    """
     frase = input("Ingrese una frase para mostrar sus palabras unicas y contar cada palabra")
     palabras_frase = frase.split()
     unicas = set(palabras_frase)
@@ -207,6 +202,6 @@ def ejercicio_10():
     paises_invertido = {i[1]:i[0] for i in paises.items()}
     print("Diccionario invertido:", paises_invertido)
 
-
+#MAIN
 ejercicios = [None, ejercicio_1, ejercicio_2, ejercicio_3, ejercicio_4, ejercicio_5, ejercicio_6, ejercicio_7, ejercicio_8, ejercicio_9, ejercicio_10]
 menu_ejercicios(ejercicios)
