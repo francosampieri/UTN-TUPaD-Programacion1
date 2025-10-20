@@ -1,3 +1,4 @@
 Lapicera,1500,12
 Lapiz,1200,20
 Goma,500,30
+C:\Users\franc\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/franc/Documents/GitHub/UTN-TUPaD-Programacion1/Unidad 9/Franco Sampieri - Actividad 9 Recursividad 1PRO1.py",C:\Users\franc\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/franc/Documents/GitHub/UTN-TUPaD-Programacion1/Unidad 9/Franco Sampieri - Actividad 9 Recursividad 1PRO1.py",C:\Users\franc\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/franc/Documents/GitHub/UTN-TUPaD-Programacion1/Unidad 9/Franco Sampieri - Actividad 9 Recursividad 1PRO1.py"
