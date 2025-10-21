@@ -45,3 +45,13 @@ def menu_ejercicios(funciones):
             funciones[ejercicio_elegido]()
             print() #salto de linea
             input("Presione ENTER para volver") #para no sobrecargar consola
+
+def pedir_palabra(mensaje):
+    """Pide una palabra que no tenga simbolos ni numeros\n
+    mensaje = mensaje del input
+    """
+    string = "1,." #especifico para evitar que el usuario ingrese esa cadena
+    while not string.isalpha():
+        if string != "1,.": print("ERROR: Ingrese una cadena de solo letras")
+        string = input(mensaje)
+    return string
